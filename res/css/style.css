@@ -1,0 +1,68 @@
+#nadpis {
+    text-align: center;
+    font-weight: 200;
+    font-style: unset;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+td{
+    width: 60px;
+    height: 65px;
+    cursor: pointer;
+}
+table{
+    border: solid black;
+}
+h1{
+    text-align: center;
+}
+#counter{
+    margin-top: 10px;
+    text-align: center;
+    height: 40px;
+    font-size: 30px;
+}
+.pole {
+    background-color: rgb(120, 228, 231);
+    background-size: cover;
+}
+.pole2{
+    background-color: rgb(120, 228, 231);
+    background-size: cover;
+}
+#jednicka {
+position: absolute;
+top: 100px;
+left: 100px;
+}
+#dvojecka {
+    position: absolute;
+    top: 100px;
+    right: 100px;
+    
+}
+#enemak {
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    color: red;
+
+}
+#ty {
+    position: absolute;
+    left: 100px;
+    top: 30px;
+    color: rgb(43, 218, 43);
+}
+#nadpis {
+    text-align: center;
+    font-size: 25px;
+}
+body {
+    background-image: url(/res/img/sea.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    enable-background: accumulate;
+    background-clip: content-box;
+}
+
